@@ -68,7 +68,7 @@ get_download_file_path() {
 get_download_url() {
   local install_type=$1
   local version=$2
-  echo "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-$version.tar.gz"
+  echo "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-$version.tar.gz"
 }
 
 install_elasticsearch $ASDF_INSTALL_TYPE $ASDF_INSTALL_VERSION $ASDF_INSTALL_PATH
